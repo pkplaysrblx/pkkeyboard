@@ -2239,7 +2239,7 @@ G2L["13c"]["TextSize"] = 14;
 G2L["13c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["13c"]["Size"] = UDim2.new(0, 121, 0, 22);
 G2L["13c"]["Active"] = true;
-G2L["13c"]["Text"] = [[Delta Mobile - Keyboard Crack By ATA]];
+G2L["13c"]["Text"] = [[Keyboard by pkplaysrblx]];
 G2L["13c"]["Name"] = [[Title]];
 G2L["13c"]["BackgroundTransparency"] = 1;
 G2L["13c"]["Position"] = UDim2.new(0, 9, 0, 2);
@@ -2428,7 +2428,7 @@ G2L["155"]["Name"] = [[Shifting]];
 -- StarterGui.DeltaKeyboard.FloatingIcon
 G2L["156"] = Instance.new("ImageButton", G2L["1"]);
 G2L["156"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 30);
-G2L["156"]["Image"] = [[rbxassetid://13501536441]];
+G2L["156"]["Image"] = [[rbxassetid://18379184554]];
 G2L["156"]["Size"] = UDim2.new(0, 40, 0, 40);
 G2L["156"]["Name"] = [[FloatingIcon]];
 G2L["156"]["Visible"] = false;
@@ -2792,9 +2792,9 @@ local function C_138()
 	local IsSelecting =script.Parent.Parent.IsSelectingKey
 	IsSelecting:GetPropertyChangedSignal("Value"):Connect(function()
 		if IsSelecting.Value == true then
-			script.Parent.Title.Text = "Delta Mobile - Keyboard (Selecting Key)"
+			script.Parent.Title.Text = "pkKeyboard - (Selecting Key)"
 		elseif IsSelecting.Value == false then
-			script.Parent.Title.Text = "Delta Mobile - Keyboard Cracked By ATA"
+			script.Parent.Title.Text = "Keyboard by pkplaysrblx"
 		end
 	end)
 
