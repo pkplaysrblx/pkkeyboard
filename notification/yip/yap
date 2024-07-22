@@ -1,3 +1,7 @@
+---[Message from pkplaysrblx
+        You can have this notification script
+            because why not]---
+
 -- Get the required services
 local TweenService = game:GetService("TweenService")
 
